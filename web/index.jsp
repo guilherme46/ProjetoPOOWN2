@@ -126,7 +126,7 @@ input::-webkit-input-placeholder {
 	background-color: #fff;
 }
 #demo-2 input[type=search]:focus {
-	width: 130px;
+	width: 300px;
 	padding-left: 32px;
 	color: #000;
 	background-color: #fff;
@@ -195,14 +195,14 @@ input::-webkit-input-placeholder {
 						<div class="fh5co-feature-icon">
 							<i class="ti-shopping-cart-full"></i>
 						</div>
-						<h3 class="heading">Alimentos</h3>
+						<h3 class="heading"><a href="#">Alimentos</a></h3>
 						<p>Arroz, feijão..</p>
 					</div>
 					<div class="col-md-4 col-sm-6 text-center fh5co-feature feature-box"> 
 						<div class="fh5co-feature-icon">
 							<i class="ti-paint-bucket"></i>
 						</div>
-						<h3 class="heading">Bebidas</h3>
+						<h3 class="heading"><a href="#">Bebidas</a></h3>
 						<p>Refrigerantes, sucos.. </p>
 					</div>
 
@@ -212,8 +212,8 @@ input::-webkit-input-placeholder {
 						<div class="fh5co-feature-icon">
 							<i class="ti-hand-open"></i>
 						</div>
-						<h3 class="heading">Higiene</h3>
-						<p>Papel higiênico, sabonete..</p>
+						<h3 class="heading"><a href="#">Higiene</a></h3>
+						<p>Papel higiênico, sabonetes..</p>
 					</div>
 
 					<div class="clearfix visible-md-block visible-lg-block"></div>
@@ -222,7 +222,7 @@ input::-webkit-input-placeholder {
 						<div class="fh5co-feature-icon">
 							<i class="ti-stamp"></i>
 						</div>
-						<h3 class="heading">Limpeza</h3>
+						<h3 class="heading"><a href="#">Limpeza</a></h3>
 						<p>Detergentes, sabão..</p>
 					</div>
 
@@ -230,16 +230,16 @@ input::-webkit-input-placeholder {
 
 					<div class="col-md-4 col-sm-6 text-center fh5co-feature feature-box"> 
 						<div class="fh5co-feature-icon">
-							<i class="ti-gift"></i>
+							<i class="ti-car"></i>
 						</div>
-						<h3 class="heading">Presentes</h3>
+						<h3 class="heading"><a href="#">Brinquedos</a></h3>
 						<p>Bolas, bonecas..</p>
 					</div>
 					<div class="col-md-4 col-sm-6 text-center fh5co-feature feature-box"> 
 						<div class="fh5co-feature-icon">
 							<i class="ti-book"></i>
 						</div>
-						<h3 class="heading">Material Escolar</h3>
+                                            <h3 class="heading"><a href="#">Material Escolar</a></h3>
 						<p>Canetas esferográficas, cadernos..</p>
 					</div>
 				</div>

@@ -16,9 +16,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>GuiaSuper - As melhores ofertas de Rio Branco!</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="GuiaSuper" />
-	<meta name="keywords" content="Saiba onde comprar barato!" />
-	<meta name="author" content="..." />
+	<meta name="description" content="Suporte" />
+	<meta name="keywords" content="GuiaSuper" />
+	<meta name="author" content="Guilherme" />
 
   	
   	<link rel="shortcut icon" href="GuiaSuper.png">
@@ -173,11 +173,9 @@ input::-webkit-input-placeholder {
 				<div class="col-md-8 col-md-offset-2">
 					<div class="fh5co-hero-wrap">
 						<div class="fh5co-hero-intro">
-							<h1 class="to-animate hero-animate-1">GuiaSuper</h1>
-							<h2 class="to-animate hero-animate-2">Onde comprar barato!</h2>
-							<form id="demo-2">
-                                                        <input type="search" placeholder="Search">
-                                                        </form>
+							<h1 class="to-animate hero-animate-1">Precisa de Ajuda?</h1>
+							<h2 class="to-animate hero-animate-2">NOS ENVIE SUA MENSAGEM</h2>
+							                  <p><a href="index.jsp" class="btn btn-outline btn-sm">Início</a></p>
   
 </div>
 						</div>
@@ -187,62 +185,38 @@ input::-webkit-input-placeholder {
 		</div>
 
 		<div id="fh5co-main">
-	
-			<div class="container">
-				<div class="row" id="fh5co-features">
-					
-					<div class="col-md-4 col-sm-6 text-center fh5co-feature feature-box">
-						<div class="fh5co-feature-icon">
-							<i class="ti-shopping-cart-full"></i>
-						</div>
-						<h3 class="heading"><a href="category01">Alimentos</a></h3>
-						<p>Arroz, feijão..</p>
-					</div>
-					<div class="col-md-4 col-sm-6 text-center fh5co-feature feature-box"> 
-						<div class="fh5co-feature-icon">
-							<i class="ti-paint-bucket"></i>
-						</div>
-						<h3 class="heading"><a href="category02">Bebidas</a></h3>
-						<p>Refrigerantes, sucos.. </p>
-					</div>
+                    <div class="col-md-8 col-md-offset-2">
+			<form action="#" method="post">
+							<div class="col-md-12">
+								<div class="form-group">
+									<label for="name" class="sr-only">Nome</label>
+									<input placeholder="Digite o seu nome" id="name" type="text" class="form-control input-lg">
+								</div>	
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<label for="email" class="sr-only">E-mail</label>
+									<input placeholder="Digite o seu e-mail" id="email" type="text" class="form-control input-lg">
+								</div>	
+							</div>
+							
+							<div class="col-md-12">
+								<div class="form-group">
+									<label for="message" class="sr-only">Mensagem</label>
+									<textarea placeholder="Digite sua dúvida/reclamação/sugestão" id="message" class="form-control input-lg" rows="3"></textarea>
+								</div>	
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+                                                                    <input type="submit" class="btn btn-primary btn-lg " value="ENVIAR">
 
-					<div class="clearfix visible-sm-block"></div>
-
-					<div class="col-md-4 col-sm-6 text-center fh5co-feature feature-box"> 
-						<div class="fh5co-feature-icon">
-							<i class="ti-hand-open"></i>
-						</div>
-						<h3 class="heading"><a href="category03">Higiene</a></h3>
-						<p>Papel higiênico, sabonetes..</p>
-					</div>
-
-					<div class="clearfix visible-md-block visible-lg-block"></div>
-
-					<div class="col-md-4 col-sm-6 text-center fh5co-feature feature-box">
-						<div class="fh5co-feature-icon">
-							<i class="ti-stamp"></i>
-						</div>
-						<h3 class="heading"><a href="category04">Limpeza</a></h3>
-						<p>Detergentes, sabão..</p>
-					</div>
-
-					<div class="clearfix visible-sm-block"></div>
-
-					<div class="col-md-4 col-sm-6 text-center fh5co-feature feature-box"> 
-						<div class="fh5co-feature-icon">
-							<i class="ti-car"></i>
-						</div>
-						<h3 class="heading"><a href="category05">Brinquedos</a></h3>
-						<p>Bolas, bonecas..</p>
-					</div>
-					<div class="col-md-4 col-sm-6 text-center fh5co-feature feature-box"> 
-						<div class="fh5co-feature-icon">
-							<i class="ti-book"></i>
-						</div>
-                                            <h3 class="heading"><a href="category06">Material Escolar</a></h3>
-						<p>Canetas esferográficas, cadernos..</p>
-					</div>
+								</div>	
+							</div>
+							
+							
+						</form>
 				</div>
+                    </div>
 				<!-- END row -->
 
 				<div class="fh5co-spacer fh5co-spacer-md"></div>
@@ -276,7 +250,7 @@ input::-webkit-input-placeholder {
 						<h3 class="fh5co-footer-heading">Links</h3>
 						<ul class="fh5co-footer-links">
 							<li><a href="#">Termos e Condições</a></li>
-							<li><a href="contact.jsp">Suporte</a></li>
+							<li><a href="#">Suporte</a></li>
 							
 							
 						</ul>

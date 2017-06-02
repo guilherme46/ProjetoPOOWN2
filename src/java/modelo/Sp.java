@@ -13,7 +13,7 @@ public class Sp {
     
     private int cod_sp;
     private String nome;
-    private String endereco_cod_endereco;
+    private Integer endereco_cod_endereco;
 
     /**
      * @return the cod_sp
@@ -46,14 +46,14 @@ public class Sp {
     /**
      * @return the endereco_cod_endereco
      */
-    public String getEndereco_cod_endereco() {
+    public Integer getEndereco_cod_endereco() {
         return endereco_cod_endereco;
     }
 
     /**
      * @param endereco_cod_endereco the endereco_cod_endereco to set
      */
-    public void setEndereco_cod_endereco(String endereco_cod_endereco) {
+    public void setEndereco_cod_endereco(Integer endereco_cod_endereco) {
         this.endereco_cod_endereco = endereco_cod_endereco;
     }
     

@@ -1,6 +1,6 @@
 <%-- 
-    Document   : page1
-    Created on : 27/04/2017, 19:46:36
+    Document   : cat1
+    Created on : 
     Author     : Guilherme e Rodrigo
 --%>
 
@@ -173,11 +173,12 @@ input::-webkit-input-placeholder {
 				<div class="col-md-8 col-md-offset-2">
 					<div class="fh5co-hero-wrap">
 						<div class="fh5co-hero-intro">
-							<h1 class="to-animate hero-animate-1">GuiaSuper</h1>
-							<h2 class="to-animate hero-animate-2">Onde comprar barato!</h2>
-							<form id="demo-2">
-                                                        <input type="search" placeholder="Search">
-                                                        </form>
+							<h2 class="to-animate hero-animate-1">CATEGORIA</h2>
+							<h1 class="to-animate hero-animate-2">BEBIDAS</h1>
+                      
+
+						<p><a href="index.jsp" class="btn btn-outline btn-sm">VOLTAR</a></p>
+							
   
 </div>
 						</div>
@@ -188,60 +189,9 @@ input::-webkit-input-placeholder {
 
 		<div id="fh5co-main">
 	
-			<div class="container">
-				<div class="row" id="fh5co-features">
-					
-					<div class="col-md-4 col-sm-6 text-center fh5co-feature feature-box">
-						<div class="fh5co-feature-icon">
-							<i class="ti-shopping-cart-full"></i>
-						</div>
-						<h3 class="heading"><a href="Categoria1.jsp">Alimentos</a></h3>
-						<p>Arroz, feijão..</p>
-					</div>
-					<div class="col-md-4 col-sm-6 text-center fh5co-feature feature-box"> 
-						<div class="fh5co-feature-icon">
-							<i class="ti-paint-bucket"></i>
-						</div>
-						<h3 class="heading"><a href="Categoria2.jsp">Bebidas</a></h3>
-						<p>Refrigerantes, sucos.. </p>
-					</div>
-
-					<div class="clearfix visible-sm-block"></div>
-
-					<div class="col-md-4 col-sm-6 text-center fh5co-feature feature-box"> 
-						<div class="fh5co-feature-icon">
-							<i class="ti-hand-open"></i>
-						</div>
-						<h3 class="heading"><a href="Categoria3.jsp">Higiene</a></h3>
-						<p>Papel higiênico, sabonetes..</p>
-					</div>
-
-					<div class="clearfix visible-md-block visible-lg-block"></div>
-
-					<div class="col-md-4 col-sm-6 text-center fh5co-feature feature-box">
-						<div class="fh5co-feature-icon">
-							<i class="ti-stamp"></i>
-						</div>
-						<h3 class="heading"><a href="Categoria4.jsp">Limpeza</a></h3>
-						<p>Detergentes, sabão..</p>
-					</div>
-
-					<div class="clearfix visible-sm-block"></div>
-
-					<div class="col-md-4 col-sm-6 text-center fh5co-feature feature-box"> 
-						<div class="fh5co-feature-icon">
-							<i class="ti-car"></i>
-						</div>
-						<h3 class="heading"><a href="Categoria5.jsp">Brinquedos</a></h3>
-						<p>Bolas, bonecas..</p>
-					</div>
-					<div class="col-md-4 col-sm-6 text-center fh5co-feature feature-box"> 
-						<div class="fh5co-feature-icon">
-							<i class="ti-book"></i>
-						</div>
-                                            <h3 class="heading"><a href="Categoria6.jsp">Material Escolar</a></h3>
-						<p>Canetas esferográficas, cadernos..</p>
-					</div>
+			<div class="col-md-4 col-sm-6 footer-box">
+						<p>Listagem</p>
+                        </div>
 				</div>
 				<!-- END row -->
 

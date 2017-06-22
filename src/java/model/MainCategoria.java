@@ -5,25 +5,33 @@
  */
 package model;
 
-import controle.CategoriaImpl;
-import dao.CategoriaDao;
+import controle.ProdutoImpl;
+import dao.ProdutoDao;
 import java.util.List;
-import modelo.Categoria;
+import modelo.Produto;
 
 /**
  *
  * @author Laboratorio
  */
+
+
 public class MainCategoria {
     
     public static void main(String[] args){
-        CategoriaImpl categoriaImpl = new CategoriaImpl();
-        
-        List<Categoria> list = categoriaImpl.listAll();
-        for (Categoria categoria : list) {
-            System.out.println(categoria.getCod_cat()+" - "+categoria.getNome());
-        }
+
+ProdutoImpl proImpl = new ProdutoImpl();
+List<Produto> produtos = proImpl.listAll();
+           
+       for (Produto p: produtos) { 
+		
+			p.getNome();
+			p.getKg();
+		
+		}
+       }
     }
     
-}
+   
+
 

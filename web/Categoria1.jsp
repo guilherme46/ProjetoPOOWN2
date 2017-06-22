@@ -4,6 +4,9 @@
     Author     : Guilherme e Rodrigo
 --%>
 
+<%@page import="java.util.List"%>
+<%@page import="modelo.Produto"%>
+<%@page import="controle.ProdutoImpl"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <!DOCTYPE html>
@@ -142,6 +145,9 @@ input::-webkit-input-placeholder {
 	</head>
 	<body>
 
+           <% ProdutoImpl proImpl = new ProdutoImpl();
+           List<Produto> produtos = proImpl.listAll(); %>
+            
 		<!-- START #fh5co-header -->
 		<header id="fh5co-header-section" role="header" class="" >
 			<div class="container">
@@ -186,12 +192,33 @@ input::-webkit-input-placeholder {
 				</div>
 			</div>		
 		</div>
+               <div class="container">
+				<div class="col-md-8 col-md-offset-2">                         
+<table>
+	<thead>
+		<tr>
+			<th>Nome</th>
+			<th>KG</th>
+		</tr>
+	</thead>
 
+	<tbody>
+		<% for (Produto p: produtos) { %>
+		<tr>
+			<td><%=p.getNome()%></td>
+			<td><%=p.getKg()%></td>
+		</tr>
+		<% } %>
+	</tbody>
+</table>
+  </div>
+               </div>
 		<div id="fh5co-main">
 	
-			<div class="col-md-4 col-sm-6 footer-box">
+			
 						<p>Listagem</p>
-                        </div>
+
+                       
 				</div>
 				<!-- END row -->
 

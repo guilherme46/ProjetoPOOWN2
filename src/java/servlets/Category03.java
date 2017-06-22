@@ -186,7 +186,7 @@ public class Category03 extends HttpServlet {
 "					<div class=\"col-md-4 col-sm-6 footer-box\">\n" +
 "						<h3 class=\"fh5co-footer-heading\">Links</h3>\n" +
 "						<ul class=\"fh5co-footer-links\">\n" +
-"							<li><a href=\"#\">Termos e Condições</a></li>\n" +
+							
 "							<li><a href=\"contact.jsp\">Suporte</a></li>\n" +
 "							\n" +
 "							\n" +

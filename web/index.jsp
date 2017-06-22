@@ -275,7 +275,6 @@ input::-webkit-input-placeholder {
 					<div class="col-md-4 col-sm-6 footer-box">
 						<h3 class="fh5co-footer-heading">Links</h3>
 						<ul class="fh5co-footer-links">
-							<li><a href="#">Termos e Condições</a></li>
 							<li><a href="contact.jsp">Suporte</a></li>
 							
 							

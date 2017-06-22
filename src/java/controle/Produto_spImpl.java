@@ -41,7 +41,7 @@ public class Produto_spImpl implements Produto_spDao{
     @Override
     public List<Produto_sp> listAll() {
         List<Produto_sp> list = new ArrayList<>();
-        String sql = "SELECT cod_produto, nome, cod_barras, kg, marca_cod_marca, cod_cat FROM produto";
+        String sql = "SELECT cod_produto,preco,cod_sp FROM produto_sp";
         
         try {
             stmt = conn.prepareStatement(sql);

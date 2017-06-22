@@ -4,6 +4,8 @@
     Author     : Guilherme e Rodrigo
 --%>
 
+<%@page import="controle.Produto_spImpl"%>
+<%@page import="modelo.Produto_sp"%>
 <%@page import="java.util.List"%>
 <%@page import="modelo.Produto"%>
 <%@page import="controle.ProdutoImpl"%>
@@ -147,6 +149,9 @@ input::-webkit-input-placeholder {
 
            <% ProdutoImpl proImpl = new ProdutoImpl();
            List<Produto> produtos = proImpl.listAll(); %>
+           
+           <% Produto_spImpl pImpl = new Produto_spImpl();
+           List<Produto_sp> preco = pImpl.listAll(); %> 
             
 		<!-- START #fh5co-header -->
 		<header id="fh5co-header-section" role="header" class="" >
@@ -203,12 +208,20 @@ input::-webkit-input-placeholder {
 	</thead>
 
 	<tbody>
-		<% for (Produto p: produtos) { %>
-		<tr>
-			<td><%=p.getNome()%></td>
-			<td><%=p.getKg()%></td>
-		</tr>
-		<% } %>
+            
+		<% for (Produto p: produtos) { %> 
+                    <% if(p.getCod_cat() == 1) { %>
+                    <% for (Produto_sp pr: preco) { %>
+                        <% if(p.getCod_produto() == pr.getCod_produto()) { %>
+                        <tr>
+                            <td><%=p.getNome()%></td>
+                            <td><%=pr.getPreco()%></td>
+                        </tr>
+                        
+                    <% } %>
+                    <% } %>
+                <% } %>
+               <% } %>
 	</tbody>
 </table>
   </div>

@@ -41,7 +41,7 @@ public class SpImpl implements SpDao{
     @Override
     public List<Sp> listAll() {
         List<Sp> list = new ArrayList<>();
-        String sql = "SELECT cod_sp, nome, endereco_cod_endereco FROM endereco";
+        String sql = "SELECT cod_sp, nome, endereco_cod_endereco FROM sp";
         
         try {
             stmt = conn.prepareStatement(sql);

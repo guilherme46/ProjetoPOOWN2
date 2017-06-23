@@ -4,6 +4,8 @@
     Author     : Guilherme e Rodrigo
 --%>
 
+<%@page import="modelo.Sp"%>
+<%@page import="controle.SpImpl"%>
 <%@page import="controle.Produto_spImpl"%>
 <%@page import="modelo.Produto_sp"%>
 <%@page import="java.util.List"%>
@@ -151,7 +153,10 @@ input::-webkit-input-placeholder {
            List<Produto> produtos = proImpl.listAll(); %>
            
            <% Produto_spImpl pImpl = new Produto_spImpl();
-           List<Produto_sp> preco = pImpl.listAll(); %> 
+           List<Produto_sp> preco = pImpl.listAll(); %>
+           
+           <% SpImpl spimpl = new SpImpl();
+           List<Sp> spa = spimpl.listAll(); %>
             
 		<!-- START #fh5co-header -->
 		<header id="fh5co-header-section" role="header" class="" >
@@ -204,6 +209,7 @@ input::-webkit-input-placeholder {
 		<tr>
 			<th>Nome</th>
 			<th>KG</th>
+                        <th>Supermercado</th>
 		</tr>
 	</thead>
 
@@ -212,12 +218,14 @@ input::-webkit-input-placeholder {
 		<% for (Produto p: produtos) { %> 
                     <% if(p.getCod_cat() == 1) { %>
                     <% for (Produto_sp pr: preco) { %>
-                        <% if(p.getCod_produto() == pr.getCod_produto()) { %>
+                        <% for (Sp sip: spa) { %>
+                        <% if((p.getCod_produto() == pr.getCod_produto()) && (sip.getCod_sp()==pr.getCod_sp())) { %>
                         <tr>
                             <td><%=p.getNome()%></td>
                             <td><%=pr.getPreco()%></td>
+                            <td><%=sip.getNome()%></td>
                         </tr>
-                        
+                        <% } %>
                     <% } %>
                     <% } %>
                 <% } %>

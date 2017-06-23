@@ -269,7 +269,7 @@ input::-webkit-input-placeholder {
 					<div class="col-md-4 col-sm-6 footer-box">
 						<h3 class="fh5co-footer-heading">Sobre Nós</h3>
 						<p>Guilherme Júnior e Rodrigo Barbosa. Acadêmicos do Curso de Sistemas de Informação na instituição de ensino União Educacional do Norte - UNINORTE, sob a orientação do Prof. Maicon Vasconcelos.</p>
-						<p><a href="#" class="btn btn-outline btn-sm">Início</a></p>
+						<p><a href="#top" class="btn btn-outline btn-sm">Início</a></p>
 
 					</div>
 					<div class="col-md-4 col-sm-6 footer-box">

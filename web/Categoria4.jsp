@@ -212,10 +212,10 @@ input::-webkit-input-placeholder {
 	<thead>
 		<tr>
 			<th>Nome</th>
-			<th>KG</th>
+			<th>Preço</th>
                         <th>Supermercado</th>
 		</tr>
-	</thead>
+	</thead> 
 
 	<tbody>
             

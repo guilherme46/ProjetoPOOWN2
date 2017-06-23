@@ -203,16 +203,18 @@ input::-webkit-input-placeholder {
 			</div>		
 		</div>
 
-		<div id="fh5co-main">
+		<div id="fh5co-main" >
 	
-			<div class="col-md-4 col-sm-6 footer-box">
+			<div class="col-md-4 col-sm-6 footer-box"  >
+                            
 						<p>Listagem</p>
+                            
                         </div>
 <table>
 	<thead>
 		<tr>
 			<th>Nome</th>
-			<th>KG</th>
+			<th>Preço </th>
                         <th>Supermercado</th>
 		</tr>
 	</thead>
@@ -224,6 +226,8 @@ input::-webkit-input-placeholder {
                     <% for (Produto_sp pr: preco) { %>
                     <% for (Sp sip: spa) { %>
                         <% if((p.getCod_produto() == pr.getCod_produto()) && (sip.getCod_sp()==pr.getCod_sp())) { %>
+                        
+                        
                         <tr>
                             <td><%=p.getNome()%></td>
                             <td><%=pr.getPreco()%></td>

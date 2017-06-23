@@ -206,7 +206,7 @@ input::-webkit-input-placeholder {
 		<div id="fh5co-main">
 	
 			<div class="col-md-4 col-sm-6 footer-box">
-						<p>Listagem</p>
+						
                         </div>
 <table>
 	<thead>
@@ -220,10 +220,12 @@ input::-webkit-input-placeholder {
 	<tbody>
             
 		<% for (Produto p: produtos) { %> 
-                    <% if(p.getCod_cat() == 6) { %>
+                    <% if(p.getCod_cat() == 5) { %>
                     <% for (Produto_sp pr: preco) { %>
                     <% for (Sp sip: spa) { %>
                         <% if((p.getCod_produto() == pr.getCod_produto()) && (sip.getCod_sp()==pr.getCod_sp())) { %>
+                        
+                        
                         <tr>
                             <td><%=p.getNome()%></td>
                             <td><%=pr.getPreco()%></td>
